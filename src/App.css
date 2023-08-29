@@ -1,8 +1,7 @@
 body {
-  background-image: url('./bg.jpg'); /* Update the path and filename */
+  background-image: url('./bg.jpg'); 
   background-size: cover;
-  background-attachment: fixed; /* Ensures the background stays fixed */
-  /* Other styling properties */
+  background-attachment: fixed;
 }
 .App {
   text-align: center;

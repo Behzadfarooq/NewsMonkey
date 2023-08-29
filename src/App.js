@@ -26,7 +26,7 @@ import LoadingBar from 'react-top-loading-bar'
         <Route exact path="science" element={<News setProgress ={setProgress} apiKey = {apiKey} pageSize={pageSize} country ="in" category = "science"/>}></Route>
         <Route exact path="sports" element={<News setProgress ={setProgress} apiKey = {apiKey} pageSize={pageSize} country ="in" category = "sports"/>}></Route>
         <Route exact path="technology" element={<News setProgress ={setProgress} apiKey = {apiKey} pageSize={pageSize} country ="in" category = "technology"/>}></Route>
-        </Routes>
+        </Routes>""
     </BrowserRouter>
 
        </div>
