@@ -34,6 +34,7 @@ const News =(props)=> {
       )} - NewsMonkey`;
       updateNews();
     };
+    //eslint-disable-next-line
   }, []);
    const fetchMoreData = async() => {
      const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=cc1aa51c764b429dadb9311cecefd384&page=${page+1}&pagesize=${props.pageSize}`;
