@@ -89,7 +89,7 @@ const News =(props)=> {
   // };
     return (
       <div className="container">
-        <h1 className="text-center" style={{ margin: "20px,0px", marginTop:"90px"}}>
+        <h1 className="text-center" style={{ margin: "20px,0px", marginTop:"90px", color:"white"}}>
           Top {props.category} headlines
         </h1>
         <InfiniteScroll
